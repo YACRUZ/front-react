@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: {model_name}-server
-  replicas: {nodo}
+  replicas: {nodo_name}
   template:
     metadata:
       labels:
