@@ -15,7 +15,7 @@ jobs:
           node-version: 16.x
       - name: npm install
         run: npm install
-   #   - name: Test
+   #   - name: Test -
    #     run: |
    #       npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
       - name: make .env 
